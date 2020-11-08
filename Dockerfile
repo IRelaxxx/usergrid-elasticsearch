@@ -6,7 +6,7 @@
 
 FROM yep1/usergrid-java
 
-ENV ES_PKG_NAME elasticsearch-1.7.4
+ENV ES_PKG_NAME elasticsearch-1.7.6
 
 # install elasticsearch
 RUN \
