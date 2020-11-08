@@ -4,7 +4,7 @@
 # https://github.com/yep/usergrid-elasticsearch
 # 
 
-FROM yep1/usergrid-java
+FROM akrahl/usergrid-java-jre
 
 ENV ES_PKG_NAME elasticsearch-1.7.6
 
