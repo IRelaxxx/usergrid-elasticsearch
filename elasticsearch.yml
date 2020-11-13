@@ -9,3 +9,6 @@ node.data: true
 index.number_of_shards: 1
 index.number_of_replicas: 0
 gateway.expected_nodes: 1
+cluster.routing.allocation.disk.watermark.low: 95%
+cluster.routing.allocation.disk.watermark.high: 97%
+cluster.routing.allocation.disk.watermark.flood_stage: 98%
